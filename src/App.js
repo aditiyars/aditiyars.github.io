@@ -22,33 +22,35 @@ function App() {
       'selection:bg-teal-300', 
       'selection:text-teal-900',
       );
-  });
-  
-  return (
-    <body className="bg-slate-900">
-      <AnimatedCursor
-        innerSize={10}
-        outerSize={50}
-        color='16, 185, 129'
-        outerAlpha={0.2}
-        innerScale={0.7}
-        outerScale={3}
-      />
-      <Navbar/>
-      <Fade cascade delay={30}>
-        <About />
-        <hr className="mt-5"></hr>
-        <Resume />
-      </Fade>
-      
-      <Slide>
-        <hr className="mt-5"></hr>
-        <Project />
-        <Contact />
-      </Slide>
 
-      <Footer />
-    </body>
+      
+    });
+   
+  return (
+      <body className="bg-slate-900">
+        <AnimatedCursor
+          innerSize={10}
+          outerSize={50}
+          color='16, 185, 129'
+          outerAlpha={0.2}
+          innerScale={0.7}
+          outerScale={3}
+        />
+        <Navbar/>
+        <Fade cascade delay={30}>
+          <About />
+          <hr className="mt-5"></hr>
+          <Resume />
+        </Fade>
+        
+        <Slide>
+          <hr className="mt-5"></hr>
+          <Project />
+          <Contact />
+        </Slide>
+
+        <Footer />
+      </body>
   );
 }
 
