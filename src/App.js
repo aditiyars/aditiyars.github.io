@@ -43,11 +43,11 @@ function App() {
           <Resume />
         </Fade>
         
-        <Slide>
+        <Fade cascade delay={30}>
           <hr className="mt-5"></hr>
           <Project />
           <Contact />
-        </Slide>
+        </Fade>
 
         <Footer />
       </body>
