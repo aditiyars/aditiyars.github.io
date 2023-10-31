@@ -50,11 +50,10 @@ class Project extends React.Component{
                 <ul className="md:grid md:grid-cols-2 xl:grid-cols-4">
                     {projects.map((project)=> (
                         <li key={project.id} className="md:mb-5">
-                            <div className="project p-5 mr-5 hover:bg-white hover:bg-opacity-10 w-full backdrop-blur-lg rounded drop-shadow-lg">
+                            <div className="p-5 m-2 bg-opacity-10 rounded-md bg-white max-w-full hover:bg-opacity-30">
                                 <a href={project.github}>
                                     <div className="flex flex-wrap">
                                         <h3 className="font-medium leading-snug text-slate-200 mr-2">{project.name}</h3>
-                                        <img src={outbound} alt="foto outbound" className="h-6"></img>
                                     </div>
 
                                     <p className="text-justify mt-2 leading-normal">

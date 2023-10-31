@@ -35,6 +35,19 @@ function App() {
           outerAlpha={0.2}
           innerScale={0.7}
           outerScale={3}
+          clickables={[
+            'a',
+            'input[type="text"]',
+            'input[type="email"]',
+            'input[type="number"]',
+            'input[type="submit"]',
+            'input[type="image"]',
+            'label[for]',
+            'select',
+            'textarea',
+            'button',
+            '.link'
+          ]}
         />
         <Navbar/>
         <Fade cascade delay={30}>
@@ -43,12 +56,12 @@ function App() {
           <Resume />
         </Fade>
         
-        <Fade cascade delay={30}>
+        <Slide>
           <hr className="mt-5"></hr>
           <Project />
           <Contact />
-        </Fade>
-
+        </Slide>
+    
         <Footer />
       </body>
   );
