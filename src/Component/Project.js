@@ -1,44 +1,5 @@
 import React from "react";
-import outbound from "./Assets/outbound.svg"
-
-const projects = [
-    {
-        id:1,
-        name:'Digital Signature SHA-256 & RSA · FullStack',
-        desc:'digital signature application for pdf files using sha-256 and rsa algorithms (web server application)',
-        skills:[
-            'JavaScript','Bootstrap','NodeJS','ExpressJS'
-        ],
-        github:'https://github.com/aditiyars/digitalSignature.git'
-    },
-    {
-        id:2,
-        name:'Citayem Fashion Week · Front-End',
-        desc:'Simple web app using html, css, javascript for Dicoding Submission',
-        skills:[
-            'HTML','CSS','JavaScript'
-        ],
-        github:'https://github.com/aditiyars/CitayemFashionWeek/tree/main'
-    },
-    {
-        id:3,
-        name:'Warteg Online · Full-Stack',
-        desc:'Simple CRUD implementation on CodeIgniter3 Framework',
-        skills:[
-            'PHP','BootStrap','CodeIgniter3'
-        ],
-        github:'https://github.com/aditiyars/wartegonlineCI3'
-    },
-    {
-        id:4,
-        name:'SIPENMARU Poltekkes Palembang · Front-End',
-        desc:'Web App for new student registration using CodeIgniter3 Framwork (Intenship Program)',
-        skills:[
-            'PHP','BootStrap','CodeIgniter3'
-        ],
-        github:'https://github.com/primum-coertus/poltekkespalembang'
-    },
-]
+import projects from "./Data/project.json"
 
 class Project extends React.Component{
     

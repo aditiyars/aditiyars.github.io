@@ -1,0 +1,34 @@
+{
+    "skill": [
+        "Java",
+        "SpringBoot",
+        "NodeJS",
+        "ExpressJS",
+        "Go Lang",
+        "Gin Gonic",
+        "ORM",
+        "PHP",
+        "HTML CSS, JavaScript",
+        "CodeIgniter3",
+        "SQL",
+        "Figma",
+        "JIRA",
+        "ReactJs",
+        "Tailwind",
+        "Bootstrap"
+    ],
+    "organization" : [
+        {
+            "id" : 1,
+            "name" : "Himpunan Mahasiswa Teknik Informatika (HMIF)",
+            "position" : "KOMINFO Service Multimedia Division Staff",
+            "year" : "2021-2022"
+        },
+        {
+            "id" : 2,
+            "name" : "Tecnhology Euphoria",
+            "position" : "Volunteer/Staff Visual Design",
+            "year" : "2021"
+        }
+    ]
+}

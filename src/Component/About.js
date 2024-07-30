@@ -1,6 +1,6 @@
 import React from "react";
 import Adit from "./Assets/adit.png"
-import CV from "./Assets/CV.pdf"
+import CV from "./Assets/CV ATS EN (1).pdf"
 import "./Assets/Style.css"
 
 class About extends React.Component{
@@ -21,7 +21,7 @@ class About extends React.Component{
                         <div className="flex flex-row  px-5 text-sm lg:text-base  mt-4 lg:w-[60ch] leading-7">
                         <a className="bg-teal-300 hover:bg-teal-600 text-black font-bold py-2 px-4 rounded inline-flex items-center" href={CV} download>
                             <svg className="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/></svg>
-                            <span>Download</span>
+                            <span>Download CV</span>
                         </a>
                         </div>
                     </div>

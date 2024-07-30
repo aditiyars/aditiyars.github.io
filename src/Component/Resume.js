@@ -1,43 +1,19 @@
 import React from "react";
+import data from "./Data/resume.json"
 
 class Resume extends React.Component{
     
     
     render(){
         // skill
-        const skill = 
-        [
-            'Java',
-            'PHP',
-            'HTML, CSS, JavaScript',
-            'NodeJS',
-            'CodeIgniter 3',
-            'SQL',
-            'Adobe Photoshop',
-            'Figma',
-            'ReactJs',
-            'Tailwind',
-        ]
+        const skill = data.skill
 
         const size = skill.length/2;
         const firstArr = skill.slice(0,size);
         const secArr = skill.slice(size);
 
         // ORGANIZATION
-        const organization = [
-            {
-                id : 1,
-                name : 'Himpunan Mahasiswa Teknik Informatika (HMIF)',
-                position : 'KOMINFO Service Multimedia Division Staff',
-                year : '2021-2022'
-            },
-            {
-                id : 2,
-                name : 'Tecnhology Euphoria',
-                position : 'Volunteer/Staff Visual Design',
-                year : '2021'
-            }
-        ]
+        const organization = data.organization
 
         return(
             <div className="container max-w-full mx-auto mt-5 p-5" >
